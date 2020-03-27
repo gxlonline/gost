@@ -1,4 +1,4 @@
-module github.com/ginuerzh/gost
+module github.com/gxlonline/gost
 
 go 1.13
 
