@@ -46,7 +46,7 @@ func PeriodReload(r Reloader, configFile string) error {
 		if !lastMod.IsZero() && !mt.Equal(lastMod) {
 			log.Log("[reload]", configFile)
 			if err := r.Reload(f); err != nil {
-				log.Logf("[reload] %s: %s", configFile, err)
+				log.Logf("[reload-haha] %s: %s", configFile, err)
 			}
 		}
 		f.Close()
